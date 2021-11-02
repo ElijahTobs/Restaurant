@@ -1,0 +1,34 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.main-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: blueviolet;
+  padding: 0 30px;
+  text-transform: uppercase;
+  color: white;
+  font-weight: 600;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.navs ul {
+  display: flex;
+  justify-content: space-evenly;
+  list-style-type: none;
+}
+
+.navs li {
+  margin-left: 20px;
+}
+
+main {
+  margin: 15% 0 0 10%;
+}
+
+main p {
+  font-size: 30px;
+}
